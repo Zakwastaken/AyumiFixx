@@ -675,9 +675,9 @@ class MusicBot extends Client {
         this.commands.set(command.name, command);
     }
 })
-	 }
-		 connect() {
-        return super.login(this.token);
-    };
+}
+connect() {
+ this.login(process.env.token);    
+};
 };
 module.exports = MusicBot;
