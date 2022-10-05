@@ -1,0 +1,5 @@
+      "host": "disbotlistlavalink.ml",
+      "port": 443,
+      "password": "LAVA",
+      "retryDelay": 3000,
+      "secure": true
