@@ -562,8 +562,6 @@ class MusicBot extends Client {
     image:message.attachments.first() ? message.attachments.first().proxyURL : null
   })
 })
-const loadFeatures = require("../features/load-features");
-loadFeatures(this)
 		 this.commands = new Collection();
      this.config = require("../config");
      this.owner = this.config.ownerID;
